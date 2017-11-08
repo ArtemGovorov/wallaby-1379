@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "module": "es2015",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "inlineSourceMap": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noEmit": true,
+        "noEmitOnError": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "isolatedModules": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "importHelpers": false,
+        "declaration": false,
+        "typeRoots": [
+            "types",
+            "node_modules/@types"
+        ],
+        "types": [
+            "jest"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "types/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "public",
+        "build-es5",
+        "build-es6",
+        "compiled"
+    ]
+}
